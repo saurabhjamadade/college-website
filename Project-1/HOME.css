@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navber{
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index:100;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+}
+.nav-logo{
+    height: 110px;
+    width: 90px;
+   
+
+}
+.logo{
+    background-image: url(uma-clg-logo.png);
+    background-size: cover;
+    height: 110px;
+    width: 100%;
+    margin-left: 10px;
+}
+span{
+    margin-top: 35px;
+    margin-left: 20px;
+    display: inline-block;
+    font-family: Afacad Flux;
+}
+h4{
+    display: inline-block;
+    margin-top:10px ;
+    margin-left: 5px;
+    font-family:Vollkorn;
+    font-size: 30px;
+}
+
+.items{
+    background-color: #db5f11;
+    height: 46px;
+    width: 100%;
+    position: relative;
+    top:110px;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a:hover{
+    color: #000;
+    transition: all 1s ease-out 0.13ms
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family:Lora;
+
+}
+
+main {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    box-shadow: 0px 0px 3px gray;
+    position: relative;
+    overflow: hidden;
+}
+.mySlides{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+
+}
+.nav{
+    text-align: center;
+}
+
+/* From Uiverse.io by cssbuttons-io */ 
+.button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #db5f11;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+  #LINE{
+    background:#d48e55;
+    height:5px;
+    width:100%;
+    margin-top:20px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .container {
+    font-family: 'Arial', sans-serif;
+    background: #f4f8ff;
+    color: #333;
+    line-height: 1.8;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    flex: 2;
+  }
+  
+  .text h3 {
+    color: #003366;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .text ul {
+    list-style: none;
+    margin: 20px 0;
+  }
+  
+  .text ul li {
+    font-size: 16px;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .text ul li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    color: #003366;
+    font-size: 18px;
+  }
+  
+  .quote {
+    font-style: italic;
+    font-size: 18px;
+    color: #444;
+    margin-top: 30px;
+  }
+  
+  .principal-info {
+    flex: 1;
+    text-align: center;
+    background: #003366;
+    padding: 30px;
+    height: 500px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .principal-info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .principal-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 10px;
+  }
+  
+  .principal-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .heading {
+      font-size: 28px;
+    }
+  
+    .text h3 {
+      font-size: 22px;
+    }
+  
+    .quote {
+      font-size: 16px;
+    }
+  
+    .principal-name {
+      font-size: 20px;
+    }
+  
+    .principal-title {
+      font-size: 14px;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    font-family: Gill Sans, Verdana;
+    background: linear-gradient(135deg, #f6f8fd, #e0eafc);
+    color: #333;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  h1 span {
+    color: #e67e22;
+  }
+  
+  p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 2rem;
+    color: #555;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    padding: 15px 0;
+    color: #e67e22;
+    font-size: 1.2rem;
+  }
+  .main-wrapper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #ffffff);
+  padding: 50px 20px;
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+.faculty-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.faculty-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.faculty-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.faculty-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.faculty-info {
+  padding: 25px;
+  text-align: center;
+}
+
+.faculty-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:#e67e22;
+  margin-bottom: 8px;
+}
+
+.faculty-title {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.faculty-desc {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+footer {
+  background-color: #f0e8e8;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-section a {
+  display: block;
+  text-decoration: none;
+  color: #0066cc;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  background-color: #db5f11;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-bottom span {
+  font-weight: bold;
+}

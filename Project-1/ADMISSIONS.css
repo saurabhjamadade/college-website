@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navber{
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index:100;
+    background-color:blanchedalmond ;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+    
+}
+.nav-logo{
+    height: 110px;
+    width: 90px;
+   
+
+}
+.logo{
+    background-image: url(uma-clg-logo.png);
+    background-size: cover;
+    height: 110px;
+    width: 100%;
+    margin-left: 10px;
+}
+span{
+    margin-top: 35px;
+    margin-left: 20px;
+    display: inline-block;
+    font-family: Afacad Flux;
+}
+h4{
+    display: inline-block;
+    margin-top:10px ;
+    margin-left: 5px;
+    font-family:Vollkorn;
+    font-size: 30px;
+}
+
+.items{
+    background-color: #db5f11;
+    height: 46px;
+    width: 100%;
+    position: relative;
+    top:110px;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a:hover{
+    color: #000;
+    transition: all 1s ease-out 0.13ms
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family:Lora;
+
+}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background with Gradient */
+#from {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+    height: 119vh;
+    background: #ebebe1;
+
+}
+
+/* Glassmorphism Container */
+.container {
+    background: #F0A04B;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Form Styling */
+label {
+    font-weight: 500;
+    display: block;
+    margin: 10px 0 5px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+/* Input Fields with Icons */
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container input, .input-container select {
+    width: 100%;
+    padding: 12px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: whitesmoke;
+}
+
+.input-container input::placeholder, .input-container select {
+    color:whitesmoke;
+}
+
+.input-container i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(11, 11, 11);
+    font-size: 18px;
+}
+/* Button Styling */
+button {
+    width: 100%;
+    background: linear-gradient(to right, #F0A04B, #ef922e);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #F0A04B, #e68d2f);
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #fff;
+    background: rgba(0, 255, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+footer {
+  background-color: #f0e8e8;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-section a {
+  display: block;
+  text-decoration: none;
+  color: #0066cc;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  background-color: #db5f11;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-bottom span {
+  font-weight: bold;
+}

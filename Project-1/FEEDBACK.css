@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navber{
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index:100;
+    background-color:blanchedalmond ;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+}
+.nav-logo{
+    height: 110px;
+    width: 90px;
+   
+
+}
+.logo{
+    background-image: url(uma-clg-logo.png);
+    background-size: cover;
+    height: 110px;
+    width: 100%;
+    margin-left: 10px;
+}
+span{
+    margin-top: 35px;
+    margin-left: 20px;
+    display: inline-block;
+    font-family: Afacad Flux;
+}
+h4{
+    display: inline-block;
+    margin-top:10px ;
+    margin-left: 5px;
+    font-family:Vollkorn;
+    font-size: 30px;
+}
+
+.items{
+    background-color: #db5f11;
+    height: 46px;
+    width: 100%;
+    position: relative;
+    top:110px;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a:hover{
+    color: #000;
+    transition: all 1s ease-out 0.13ms
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family:Lora;
+
+}
+
+/* <----FEEDBACK_PAGE----> */
+
+.FEED{
+    font-family: papaltion;
+    background: blanchedalmond;
+    padding: 40px 20px;
+    height: 650px;
+
+}
+h2{
+    text-align: center;
+    color: #333;
+    font-family: helvetical;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.card {
+ background-color: #ffffff;
+ border-radius: 20px;
+ box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+ padding: 25px;
+ text-align: center;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ position: relative;
+ overflow: hidden;
+}
+
+.card::before {
+ content: "";
+ position: absolute;
+ top: -100%;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(to bottom right, rgba(0, 188, 212, 0.15), rgba(0, 150, 136, 0.15));
+ transition: top 0.4s ease;
+ z-index: 0;
+}
+
+.card:hover::before {
+ top: 0;
+}
+
+.card:hover {
+ transform: translateY(-10px);
+ box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.profile-img {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 15px;
+ border: 4px solid black;
+ transition: transform 0.3s ease;
+ z-index: 1;
+ position: relative;
+}
+
+.card:hover .profile-img {
+ transform: scale(1.1);
+}
+
+.name {
+ font-weight: bold;
+ font-size: 18px;
+ margin: 10px 0 8px;
+ color: #790200;
+ z-index: 1;
+ position: relative;
+}
+
+.feedback {
+ font-size: 14px;
+ color: #555;
+ z-index: 1;
+ position: relative;
+}
+footer {
+  background-color: #f0e8e8;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-section a {
+  display: block;
+  text-decoration: none;
+  color: #0066cc;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  background-color: #db5f11;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-bottom span {
+  font-weight: bold;
+}

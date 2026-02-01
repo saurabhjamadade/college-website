@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navber{
+    width: 220vh;
+    height: 110px;
+    position: fixed;
+    z-index:100;
+    background-color:blanchedalmond ;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+}
+.nav-logo{
+    height: 110px;
+    width: 90px;
+   
+
+}
+.logo{
+    background-image: url(uma-clg-logo.png);
+    background-size: cover;
+    height: 110px;
+    width: 100%;
+    margin-left: 10px;
+}
+span{
+    margin-top: 35px;
+    margin-left: 20px;
+    display: inline-block;
+    font-family: Afacad Flux;
+}
+h4{
+    display: inline-block;
+    margin-top:10px ;
+    margin-left: 5px;
+    font-family:Vollkorn;
+    font-size: 30px;
+}
+
+.items{
+    background-color: #db5f11;
+    height: 46px;
+    width: 220vh;
+    position: relative;
+    top:110px;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a:hover{
+    color: #000;
+    transition: all 1s ease-out 0.13ms
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family:Lora;
+}
+h1 {
+  text-align: center;
+  color: #4a148c;
+}
+
+.syllabus-section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f3e5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-top: 10%;
+}
+
+.syllabus-section h2 a {
+  text-decoration: none;
+  color: #1e88e5;
+  display: block;
+  margin: 10px 0;
+}
+
+.syllabus-section h2 a:hover {
+  color: #0d47a1;
+}
+
+.notice-board {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #e1f5fe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.notice-board textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+  resize: vertical;
+}
+
+.notice-board button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.notice-board button:hover {
+  background-color: #2e7d32;
+}
+footer {
+  background-color: #f0e8e8;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-section a {
+  display: block;
+  text-decoration: none;
+  color: #0066cc;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  background-color: #db5f11;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer-bottom span {
+  font-weight: bold;
+}
